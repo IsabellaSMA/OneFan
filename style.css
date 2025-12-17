@@ -21,7 +21,20 @@ p{
     padding:150px;
 }
 
-.ventilador-um{}
+/*Ajustar a imagem do ventilado 1 para que fique do lado do texto 1 */
+.ventilador-um{
+    width: 150%;
+    overflow: hidden; 
+        } 
+.imagem {
+    float: right;
+    width: 30%; /* Ajuste conforme necessário */
+}
+
+.texto{
+    float:left;
+    
+}
 
 .planos{
     padding:20px;
@@ -43,9 +56,9 @@ p{
     padding:20px;
 }
 
-.fim {
+.fim{
     text-align:center;
     padding:20px;
-    color:#008CCF;
+    background-color:#008CCF;
 
 }
