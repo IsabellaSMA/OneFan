@@ -13,3 +13,18 @@ function abrirFourFans() {
     window.open("fourfans.html", "_blank");
   }
 
+function inscritoOneFan(){
+    alert("SE INSCREVEU NO ONEFAAAAAAANNNNN !!!!!!");
+}
+
+function inscritoTwoFans(){
+    alert("SE INSCREVEU NO TWOFAAAAAAANNNNNSSSSSS !!!!!!");
+}
+
+function inscritoThreeFans(){
+    alert("SE INSCREVEU NO THREEEFAAAAAAANNNNNSSSSSS !!!!!!");
+}
+
+function inscritoFourFans(){
+    alert("SE INSCREVEU NO FOURFAAAAAAANNNNNSSSSSS !!!!!!");
+}

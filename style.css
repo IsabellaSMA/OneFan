@@ -14,3 +14,38 @@ h1{
 p{
     font-size:20px;color:white;     
 }
+
+.botão{}
+
+.inicio{
+    padding:150px;
+}
+
+.ventilador-um{}
+
+.planos{
+    padding:20px;
+}
+
+.TwoFans{
+    padding:20px;
+}
+
+.ThreeFans{
+    padding:20px;
+}
+
+.agradecimento{
+    padding:20px;
+}
+
+.contatos{
+    padding:20px;
+}
+
+.fim {
+    text-align:center;
+    padding:20px;
+    color:#008CCF;
+
+}
