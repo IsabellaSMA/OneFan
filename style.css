@@ -6,32 +6,36 @@ body{
   font-family:"Roboto",sans-serif;
 }
     
-h1{
+.h1-inicio{
     font-size:40px;color:white;
         
 }
 
-p{
+.p-inicio{
     font-size:20px;color:white;     
 }
 
 .botão{}
 
 .inicio{
-    padding:150px;
+    /*Quero dar um espaço de 150px para ser mais fiel ao site original, mas se tem o texto mais afastado, o ventidalro é cortado*/
 }
 
 /*Ajustar a imagem do ventilado 1 para que fique do lado do texto 1 */
 .ventilador-um{
-    width: 150%;
+    width: 100%; /*Tamanho geral da imagem??*/
     overflow: hidden; 
         } 
 .imagem {
-    float: right;
-    width: 30%; /* Ajuste conforme necessário */
+    float: left; /*Posivel posição onde o ventilador vai ficar*/
+    width:50%;/* Ajuste conforme necessário */
 }
 
 .texto{
+    margin-left: 150px;
+    margin-right:150px;
+    align-items: center;
+    text-align: justify
     float:left;
     
 }
@@ -60,5 +64,10 @@ p{
     text-align:center;
     padding:20px;
     background-color:#008CCF;
+
+}
+
+.footer{
+    font-size:5px; ,color: black;,margin-right:150px;, margin-left:150px;,align-items:center;float:left; 
 
 }
