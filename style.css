@@ -1,39 +1,40 @@
 body{
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  padding: 0px; /*Espaço entre o texto e a borda*/
+  /*box-sizing: border-box; */
   background-color:#00AEEF;
   font-family:"Roboto",sans-serif;
+  color:white;
+
 }
+ 
+.inicio{
     
+}   
 .h1-inicio{
-    font-size:40px;color:white;
+    font-size:40px;
         
 }
 
 .p-inicio{
-    font-size:20px;color:white;     
+    font-size:20px;    
 }
 
 .botão{}
 
-.inicio{
-    /*Quero dar um espaço de 150px para ser mais fiel ao site original, mas se tem o texto mais afastado, o ventidalro é cortado*/
-}
 
 /*Ajustar a imagem do ventilado 1 para que fique do lado do texto 1 */
 .ventilador-um{
     width: 100%; /*Tamanho geral da imagem??*/
-    overflow: hidden; 
+    overflow: hidden;  
         } 
 .imagem {
-    float: left; /*Posivel posição onde o ventilador vai ficar*/
-    width:50%;/* Ajuste conforme necessário */
+    float: right; /*Posivel posição onde o ventilador vai ficar*/
+    width:60%;/* Ajuste conforme necessário */
+    padding:150px;
 }
 
 .texto{
-    margin-left: 150px;
-    margin-right:150px;
     align-items: center;
     text-align: justify
     float:left;
@@ -41,33 +42,27 @@ body{
 }
 
 .planos{
-    padding:20px;
+ 
 }
 
 .TwoFans{
-    padding:20px;
+   
 }
 
 .ThreeFans{
-    padding:20px;
+   
 }
 
 .agradecimento{
-    padding:20px;
 }
 
 .contatos{
-    padding:20px;
+    
 }
 
 .fim{
     text-align:center;
     padding:20px;
     background-color:#008CCF;
-
-}
-
-.footer{
-    font-size:5px; ,color: black;,margin-right:150px;, margin-left:150px;,align-items:center;float:left; 
 
 }
