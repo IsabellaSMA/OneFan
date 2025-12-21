@@ -1,25 +1,28 @@
 body{
   margin: 0;
-  padding: 0px; /*Espaço entre o texto e a borda*/
+  padding: 0; /*Espaço entre o texto e a borda*/
   box-sizing: border-box;
   background-color:#00AEEF;
   font-family:"Roboto",sans-serif;
-  color:white;
+  color:white;                                                                                  
 
 }
 
- 
+/* Configuração da div inicio e seus elementos(h1,p e a imagem do ventilador) */ 
 .inicio{
-    margin:20px;
-    padding:100px;
+    margin:0px;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-between; /*Acho que é isso que deixa a imagem do lado do texto*/
 }   
 
 .inicio img{
     loat:right;
-    height: 500px;
+    height: 550px;
 
+}
+
+.texto{
+    padding: 90px;
 }
 .inicio h1{
     color:white;
@@ -28,11 +31,10 @@ body{
 }
 .inicio p{
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
-.botao{}
-
+/*Config oara a categoria dos Planos(Cards com texto e imagens)*/
 
 .planos{
  
@@ -46,13 +48,45 @@ body{
    
 }
 
+
+ /*Config para a categoria agradecimento*/
 .agradecimento{
+    margin: 0;
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.agradecimento img{
+    loat:rigth;
+    height: 300px;
+}
+
+.texto-agradecimento h1{
+    font-size: 30px;
+}
+
+.texto-agradecimento p{
+    font-size: 20px;
+}
+
+
+/*Config Contatos*/
 .contatos{
-    
+    margin: 0;
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.contatos img{
+    /*loat: rigth;*/
+    height: 300px;
+}
+
+.contatos texto-contatos{
+    float: rigth;
+}
 .fim{
     text-align:center;
     padding:20px;
