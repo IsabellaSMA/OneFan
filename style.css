@@ -12,23 +12,27 @@ body{
 .inicio{
     margin:20px;
     padding:100px;
-
-
+    display:flex;
+    justify-content: space-between;
 }   
-.h1{
-    font-size:50px;
-        
+
+.inicio img{
+    loat:right;
+    height: 500px;
+
+}
+.inicio h1{
+    color:white;
+    font-size: 50px;
+
+}
+.inicio p{
+    color: white;
+    font-size: 25px;
 }
 
-.p{
-    font-size:20px;    
-}
+.botao{}
 
-.botão{}
-
-
-    
-}
 
 .planos{
  
