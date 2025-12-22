@@ -36,16 +36,52 @@ body{
 
 /*Config oara a categoria dos Planos(Cards com texto e imagens)*/
 
-.planos{
- 
+.planos h1{
+    font-size: 40px;
+    text-align: center;
 }
 
-.TwoFans{
-   
+.card-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    margin-top: 100px;
+    text-align: ;
 }
 
-.ThreeFans{
-   
+.card{
+    width: 325px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+}
+
+.card-content{
+    padding: 15px;
+}
+
+.card-content h3{
+    font-size: 28px;
+    margin-bottom: 8px;
+    color: black;
+
+}
+
+.card-content .botao{
+    display: inline-block;
+    padding:8px 16px ;
+    background-color: blue;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 16px;
+    color: #fff;
 }
 
 

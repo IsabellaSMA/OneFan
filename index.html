@@ -13,7 +13,7 @@
   <header>
       <img src="images/onefan-logo.png" alt="Logo OneFan" width="300" >  
   </header>
-  <div class="inicio">
+  <div class="inicio" id="inicio">
     <div class="texto">
       <h1> Welcome to OneFan <br> click on Subscribe and have fun!!</h1>
       <p> Attention, this page is for entertainment use only. <br>Any resemblance to the original site is purely "coincidental". <br>No fans were injuried during the project´s deveploment.<br>Have fun!</p> <br>
@@ -25,54 +25,49 @@
    
 
    <!-- Categoria Planos --> 
-  <div class="planos"> <!-- Para fazer os cards mostrando os planos-->
+  <div class="planos" id="planos"> <!-- Para fazer os cards mostrando os planos-->
+    <h1>Planos</h1>
     <div class="card-container">
-      <div class="card">
-        <img src="/OneFan/dois-ventiladores.jpeg" alt="Dois dois-ventiladores">
-        <div class="conteudo-card">
-          <h3> Card 1</h3>
+      <div class="card"> <!-- Primeiro card-->
+        <img src="images/fans/dois-ventiladores.png" alt="dois-ventiladores">
+        <div class="card-content">
+          <h3> TwoFans</h3>
+           <button class="botao" onclick="abrirTwoFans()">Subscribe</button> <!-- Ao clicar no botão, abre o site do plano especifico, se é two fans, abre o site dele e dai por diante --->
         </div>
       </div>
+
+          <div class="card">
+        <img src="images/fans/tres-ventiladores.png" alt="tres-ventiladores">
+        <div class="card-content">
+          <h3> TreeFans</h3>
+          <button class="botao" onclick="abrirThreeFans()">Subscribe</button>
+        </div>
+      </div>
+
+            <div class="card">
+        <img src="images/fans/quatro-ventiladores.png" alt="quatro-ventiladores">
+        <div class="card-content">
+          <h3> FourFans</h3>
+          <button class="botao" onclick="abrirFourFans()">Subscribe</button>
+        </div>
+      </div>
+    </div>
   </div>
 
-
-    <h1> Planos</h1>
-    <button id="botao" onclick="abrirTwoFans()">TwoFans</button> <!-- Ao clicar no botão, abre o site do plano especifico, se é two fans, abre o site dele e dai por diante ---> 
-    <button id="botao" onclick="abrirThreeFans()">ThreeFans</button>
-    <button id="botao" onclick="abrirFourFans()">FourFans</button>       
-  </div>
-
-  <div class="TwoFans">
-    <p> Apenas o ventilador estático para demonstracção e o nome do plano ao lado. Clicando em Subscribe, vai ser redirecionado a página la </p>
-    <img src="images/fans/ventilador-teste.png"  width= "150px" alt="ventilador teste">
-    <button id="botao" onclick="abrirTwoFans()">Subscribe</button>
-  </div>
-
-  <div class="ThreeFans">
-    <p> Apenas o ventilador estático para demonstracção Clicando em Subscribe, vai ser redirecionado a página la</p>
-    <img src="images/fans/ventilador-teste.png"  width= "150px" alt="ventilador teste">
-    <button id="botao" onclick="abrirThreeFans()">Subscribe</button>
-  </div>
-
-  <div class="FourFans">
-    <p> Apenas o ventilador estático para demonstracção Clicando em Subscribe, vai ser redirecionado a página la</p>
-    <img src="images/fans/ventilador-teste.png" width= "150px" alt="ventilador teste">
-    <button id="botao" onclick="abrirFourFans()">Subscribe</button>
-  </div>
 
 
 <!-- Categoria Agradecimento -->
-  <div class="agradecimento">
+  <div class="agradecimento" id="agradecimento">
     <div class="texto-agradecimento">
       <h1> Muito Obrigada(o)</h1>
       <p> Dedicação de todo meu agradecimento e como o projrto foi feito<p>
     </div>
-      <img src="https://w7.pngwing.com/pngs/147/495/png-transparent-smiley-thumb-signal-emoticon-meme-smiley-love-miscellaneous-face-thumbnail.png">
+      <img src="images/Bella.jpeg">
   </div>
 
 
 <!-- Categoria Contatos -->
-  <div class="contatos">
+  <div class="contatos" id="contatos">
     <div class="texto-contatos">
       <h1>Conheça Meu Trabalho</h1>
       <p> Divulgação das minhas redes sociales </p>
@@ -80,7 +75,7 @@
     <img src="https://w7.pngwing.com/pngs/871/348/png-transparent-thumbs-up-emoji-illustration-whatsapp-emoji-android-emoticon-whatsapp-smiley-viber-smile-thumbnail.png">
   </div>
 
-  <div class="fim">
+  <div class="fim" id="fim">
     <img  src="images/onefan-logo.png">
   </div>
 
