@@ -97,7 +97,7 @@ body{
 /* Config TwoFans */
 
 .twofans{
-   /* background-color:;  Da pra alterar a cor de fundo dessas divs de categorias*/
+   background-color:#CCEFFC;  /*Da pra alterar a cor de fundo dessas divs de categorias*/
    padding: 90px;
    display: flex;
    justify-content: space-between;
@@ -116,12 +116,14 @@ body{
 
 /* Config ThreeFans */
 .threefans{
+    background-color:#CCEFFC;
     padding: 90px;
     display: flex;
     justify-content: space-between;
 }
 
 .threefans h2{
+    color: white;
     text-align: left;
     font-size: 50px;
 }
@@ -134,6 +136,7 @@ body{
 
 /*Config FourFans*/
 .fourfans{
+    background-color: #CCEFFC;
     padding: 90px;
     display: flex;
     justify-content: space-between;
@@ -168,6 +171,7 @@ body{
     float: left;
 }
 .agradecimento h2{
+    color: #CCEFFC;
     font-size: 35px;
 }
 
@@ -181,6 +185,7 @@ body{
 
 
 .contato{
+    background-color:#CCEFFC;
     margin:0px;
     padding: 90px;
     display:flex;
