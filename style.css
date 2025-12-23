@@ -11,6 +11,7 @@ body{
 /* Configuração da div inicio e seus elementos(h1,p e a imagem do ventilador) */ 
 .inicio{
     margin:0px;
+    padding: 20px;
     display:flex;
     justify-content: space-between; /*Acho que é isso que deixa a imagem do lado do texto*/
 }   
@@ -18,25 +19,33 @@ body{
 .inicio img{
     loat:right;
     height: 550px;
-
 }
 
-.texto{
+.inicio .texto{
     padding: 90px;
 }
-.inicio h1{
+
+.texto h1{
     color:white;
-    font-size: 50px;
+    font-size: 45px;
 
 }
-.inicio p{
+.texto p{
     color: white;
     font-size: 20px;
 }
 
-/*Config oara a categoria dos Planos(Cards com texto e imagens)*/
+.texto .botao-inicio{ /*Tentar configurar o botão deste inicio*/
+    background-color: blue;
+    color: white;
+    font-size: 25px;
+    border-radius: 20px; /*Arredonda as bordas do botão*/
+}
 
-.planos h1{
+
+/*Config para a categoria dos Planos(Cards com texto e imagens)*/
+
+.planos h2{
     font-size: 40px;
     text-align: center;
 }
@@ -46,15 +55,15 @@ body{
     justify-content: center;
     flex-wrap: wrap;
     overflow: hidden;
-    margin-top: 100px;
+    margin-top: 80px;
     text-align: center;
 }
 
 .card{
-    width: 325px;
+    width: 320px;
     background-color: #f0f0f0;
-    border-radius: 8px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
     margin: 20px;
 }
 
@@ -79,9 +88,66 @@ body{
     padding:8px 16px ;
     background-color: blue;
     text-decoration: none;
-    border-radius: 4px;
+    border-radius: 20px;
     margin-top: 16px;
     color: #fff;
+    font-size: 20px;
+}
+
+/* Config TwoFans */
+
+.twofans{
+   /* background-color:;  Da pra alterar a cor de fundo dessas divs de categorias*/
+   padding: 90px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.twofans h2{
+    text-align: left;
+    font-size: 50px;
+}
+
+.twofans img{
+    text-align: center;
+    float: rigth;
+    height: 400px;
+}
+
+/* Config ThreeFans */
+.threefans{
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.threefans h2{
+    text-align: left;
+    font-size: 50px;
+}
+
+.threefans img{
+    text-align: center;
+    float: right;
+    height: 400px;
+}
+
+/*Config FourFans*/
+.fourfans{
+    padding: 90px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourfans h2{
+    text-align: left;
+    font-size: 50px;
+}
+
+.fourfans img{
+    text-align: center;
+    float: right;
+    height: 400px;
 }
 
 
@@ -95,37 +161,56 @@ body{
 
 .agradecimento img{
     loat:rigth;
-    height: 300px;
+    height: 250px;
 }
 
-.texto-agradecimento h1{
-    font-size: 30px;
+.agradecimento texto{
+    float: left;
+}
+.agradecimento h2{
+    font-size: 35px;
 }
 
-.texto-agradecimento p{
+.agradecimento p{
     font-size: 20px;
 }
 
 
 /*Config Contatos*/
-.contatos{
-    margin: 0;
+
+
+
+.contato{
+    margin:0px;
     padding: 90px;
-    display: flex;
+    display:flex;
     justify-content: space-between;
 }
 
-.contatos img{
-    /*loat: rigth;*/
+.contato img{
     height: 300px;
 }
 
-.contatos texto-contatos{
-    float: rigth;
+.texto-esquerda h2{
+    text-align: center;
+    font-size: 50px;
 }
+
+.texto-direita{
+    font-size: 25px;
+}
+.texto-direita h3{
+    font-size: 25px;
+    color: blue;
+}
+
 .fim{
     text-align:center;
-    padding:20px;
+    padding:300px;
     background-color:#008CCF;
 
+}
+
+.footer p{
+    text-align: center;
 }

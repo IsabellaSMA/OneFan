@@ -13,74 +13,111 @@
   <header>
       <img src="images/onefan-logo.png" alt="Logo OneFan" width="300" >  
   </header>
-  <div class="inicio" id="inicio">
-    <div class="texto">
-      <h1> Welcome to OneFan <br> click on Subscribe and have fun!!</h1>
-      <p> Attention, this page is for entertainment use only. <br>Any resemblance to the original site is purely "coincidental". <br>No fans were injuried during the project´s deveploment.<br>Have fun!</p> <br>
-      <button id="botao" onclick="inscritoOneFan()"> Subscribe </button> <!-- Teste pra adicionar uma funcionalidade a este botão-->
-    </div>
-      <img src="images/fans/vent1.png" alt="Primeiro ventilador">
-  </div>
-  
-   
 
-   <!-- Categoria Planos --> 
-  <div class="planos" id="planos"> <!-- Para fazer os cards mostrando os planos-->
-    <h1>Planos</h1>
-    <div class="card-container">
-      <div class="card"> <!-- Primeiro card-->
-        <img src="images/fans/dois-ventiladores.png" alt="dois-ventiladores">
-        <div class="card-content">
-          <h3> TwoFans</h3>
-           <button class="botao" onclick="abrirTwoFans()">Subscribe</button> <!-- Ao clicar no botão, abre o site do plano especifico, se é two fans, abre o site dele e dai por diante --->
+  <main>
+
+      <section class="inicio">
+        <div class="texto">
+          <h1> Bem-vindo(a) ao OneFan.<br> Clique em "Assinar" e se divirta!!</h1>
+          <p>Atenção, esta página é para puro entretenimento apenas. <br><br>Qualquer semelhança com o site original é pura coincidencia. <br><br>Nenhum ventilador foi danificado durante o desenvolvimento deste projeto.<br><br>Se divirta!</p> <br>
+          <button class="botao-inicio" onclick="inscritoOneFan()"> Assinar </button> <!-- Teste pra adicionar uma funcionalidade a este botão-->
         </div>
-      </div>
+        <img src="images/fans/vent1.png" alt="Primeiro ventilador">  
+      </section>  
+    
+    
+     <!-- Categoria Planos -->
+      <section class="planos"> <!-- Para fazer os cards mostrando os planos-->
+          <h2>Planos</h2>
+          <div class="card-container">
+            <div class="card"> <!-- Primeiro card-->
+              <img src="images/fans/dois-ventiladores.png" alt="dois-ventiladores">
+              <div class="card-content">
+                <h3> TwoFans</h3>
+                 <button class="botao" onclick="abrirTwoFans()">Assinar</button> <!-- Ao clicar no botão, abre o site do plano especifico, se é two fans, abre o site dele e dai por diante --->
+              </div>
+            </div>
 
-          <div class="card">
-        <img src="images/fans/tres-ventiladores.png" alt="tres-ventiladores">
-        <div class="card-content">
-          <h3> TreeFans</h3>
-          <button class="botao" onclick="abrirThreeFans()">Subscribe</button>
+              <div class="card">
+              <img src="images/fans/tres-ventiladores.png" alt="tres-ventiladores">
+              <div class="card-content">
+                <h3> TreeFans</h3>
+                <button class="botao" onclick="abrirThreeFans()">Assinar</button>
+              </div>
+            </div>
+
+                  <div class="card">
+              <img src="images/fans/quatro-ventiladores.png" alt="quatro-ventiladores">
+              <div class="card-content">
+                <h3> FourFans</h3>
+                <button class="botao" onclick="abrirFourFans()">Assinar</button>
+              </div>
+            </div>
+          </div>  
+      </section>
+
+        <!-- Categoria TWOFANS-->
+
+      <section class="twofans">
+        <div class="texto">
+          <h2>TwoFans</h2>
         </div>
-      </div>
+        <img src="images/fans/dois-ventiladores.png">
+      </section>
 
-            <div class="card">
-        <img src="images/fans/quatro-ventiladores.png" alt="quatro-ventiladores">
-        <div class="card-content">
-          <h3> FourFans</h3>
-          <button class="botao" onclick="abrirFourFans()">Subscribe</button>
+        <!-- Categoria THREEFANS-->
+
+      <section class="threefans">
+        <div class="texto">
+          <h2>ThreeFans</h2>
         </div>
-      </div>
-    </div>
-  </div>
+        <img src="images/fans/tres-ventiladores.png">
+      </section>
+
+        <!-- Categoria FOURFANS-->
+
+      <section class="fourfans">
+        <div class="texto">
+          <h2>FourFAns</h2>
+        </div>
+        <img src="images/fans/tres-ventiladores.png">
+      </section>
 
 
+  <!-- Categoria Agradecimento --> 
+        <section class="agradecimento">
+          <div class="texto">
+            <h2> Obrigada pelo Apoio!</h2>
+            <p> Dedicação de todo meu agradecimento e como o projeto foi feito</p>
+          </div>
+          <img src="images/Bella.jpeg">
+      </section>
 
-<!-- Categoria Agradecimento -->
-  <div class="agradecimento" id="agradecimento">
-    <div class="texto-agradecimento">
-      <h1> Muito Obrigada(o)</h1>
-      <p> Dedicação de todo meu agradecimento e como o projrto foi feito<p>
-    </div>
-      <img src="images/Bella.jpeg">
-  </div>
 
+    <!-- Categoria Contatos -->
+      <section class="contato">
+        <div class="texto-esquerda">
+          <h2 style="color:blue">Conheça</h2>
+          <h2 style="color:blue">Meu</h2>
+          <h2>Trabalho</h2>
+        </div>
+        <div class="texto-direita">
+          <h3> Midias Sociais</h3>
+          <a href="">Github</a> <br>
+          <a href="">LinkedIn</a>
+          <h3>Contato</h3>
+          <a href=""> Email</a>
+        </div>
+      </section>
 
-<!-- Categoria Contatos -->
-  <div class="contatos" id="contatos">
-    <div class="texto-contatos">
-      <h1>Conheça Meu Trabalho</h1>
-      <p> Divulgação das minhas redes sociales </p>
-  </div>
-    <img src="https://w7.pngwing.com/pngs/871/348/png-transparent-thumbs-up-emoji-illustration-whatsapp-emoji-android-emoticon-whatsapp-smiley-viber-smile-thumbnail.png">
-  </div>
+      <section class="fim">
+        <img  src="images/onefan-logo.png">
+      </section>
 
-  <div class="fim" id="fim">
-    <img  src="images/onefan-logo.png">
-  </div>
+  </main>
 
  <footer>
-    <p id="footer"> Muito obrigada pela atenção.</p>
+    <p> Muito obrigada pela atenção.</p>
  </footer>
 </body>
 </html>
