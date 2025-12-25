@@ -1,15 +1,52 @@
-body{
-  margin: 0;
-  padding: 0; /*Espaço entre o texto e a borda*/
-  box-sizing: border-box;
-  background-color:#00AEEF;
-  font-family:"Roboto",sans-serif;
-  color:white;                                                                                  
+html,body{
+    height: 10%; /*Deixa o footer no final da página*/
+    display: flex;
+    flex-direction: column;
 
+
+    margin: 0;
+    padding: 0; /*Espaço entre o texto e a borda*/
+    box-sizing: border-box;
+    background-color:#00AEEF;
+    font-family:"Roboto",sans-serif;
+    color:white;                                                                                  
+
+}
+/*Config Header*/
+
+.hdr{
+    align-items: center;
+    margin:0px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    width: 20%
+}
+.hdr h2{
+    font-family: 'Boska', serif;
+    font-size: 50px;
+}
+
+.hdr img{
+    padding: 30px;
+    height: 60px;
+
+}
+
+
+main{ /*Ajuda na config do footer*/
+    flex:1;
+}
+
+a{ /*config de links*/
+    color:white;
+    text-decoration: underline ;
 }
 
 /* Configuração da div inicio e seus elementos(h1,p e a imagem do ventilador) */ 
 .inicio{
+    position: relative;
+    top: -50px;
     margin:0px;
     padding: 20px;
     display:flex;
@@ -45,12 +82,16 @@ body{
 
 /*Config para a categoria dos Planos(Cards com texto e imagens)*/
 
+
 .planos h2{
     font-size: 40px;
     text-align: center;
 }
 
 .card-container{
+    position: relative;
+    top: -50px; /*Trouxe os cards um pouco pra cima*/
+
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -60,6 +101,7 @@ body{
 }
 
 .card{
+
     width: 320px;
     background-color: #f0f0f0;
     border-radius: 20px;
@@ -97,6 +139,7 @@ body{
 /* Config TwoFans */
 
 .twofans{
+    align-items: center;
    background-color:#CCEFFC;  /*Da pra alterar a cor de fundo dessas divs de categorias*/
    padding: 90px;
    display: flex;
@@ -104,8 +147,9 @@ body{
 }
 
 .twofans h2{
+    font-family: 'Boska',sans-serif;
     text-align: left;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .twofans img{
@@ -116,6 +160,7 @@ body{
 
 /* Config ThreeFans */
 .threefans{
+    align-items: center;
     background-color:#CCEFFC;
     padding: 90px;
     display: flex;
@@ -123,9 +168,10 @@ body{
 }
 
 .threefans h2{
+    font-family: 'Boska',sans-serif;
     color: white;
     text-align: left;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .threefans img{
@@ -136,6 +182,7 @@ body{
 
 /*Config FourFans*/
 .fourfans{
+    align-items: center;
     background-color: #CCEFFC;
     padding: 90px;
     display: flex;
@@ -143,8 +190,9 @@ body{
 }
 
 .fourfans h2{
+    font-family: 'Boska',sans-serif;
     text-align: left;
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .fourfans img{
@@ -171,6 +219,7 @@ body{
     float: left;
 }
 .agradecimento h2{
+    font-family: 'Boska',sans-serif;
     color: #CCEFFC;
     font-size: 35px;
 }
@@ -197,8 +246,9 @@ body{
 }
 
 .texto-esquerda h2{
+    font-family: 'Boska',sans-serif;
     text-align: center;
-    font-size: 50px;
+    font-size: 65px;
 }
 
 .texto-direita{
@@ -206,18 +256,41 @@ body{
 }
 .texto-direita h3{
     font-size: 25px;
-    color: blue;
+    color: #008CCF;
 }
 
 .fim{
-    text-align:center;
-    padding:300px;
-    background-color:#008CCF;
 
+background-color: #008CCF;
 }
 
-.footer p{
+.caixa{
+    align-items: center;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 20%;
+}
+
+.caixa h2{
+    font-family: 'Boska', serif;
+    font-size: 75px;
+}
+
+.caixa img{
+    height: 100px;
+}
+
+/*Config Rodapé/Footer*/
+
+footer{
+
+    padding: 0px;
+    background-color: white;
+    color: black;
     text-align: center;
+    font-size: 20px;
 }
 
 /*  Config da Página TwoFans*/
