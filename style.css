@@ -2,14 +2,16 @@ html,body{
     height: 10%; /*Deixa o footer no final da página*/
     display: flex;
     flex-direction: column;
-
-
     margin: 0;
     padding: 0; /*Espaço entre o texto e a borda*/
     box-sizing: border-box;
     background-color:#00AEEF;
-    font-family:"Roboto",sans-serif;
+    
     color:white;                                                                                  
+
+body{
+    font-family: 'Roboto',sans-serif;
+}
 
 }
 /*Config Header*/
@@ -23,7 +25,7 @@ html,body{
     width: 20%
 }
 .hdr h2{
-    font-family: 'Boska', serif;
+  font-family: 'Boska', serif;
     font-size: 50px;
 }
 
@@ -42,6 +44,7 @@ a{ /*config de links*/
     color:white;
     text-decoration: underline ;
 }
+
 
 /* Configuração da div inicio e seus elementos(h1,p e a imagem do ventilador) */ 
 .inicio{
@@ -63,20 +66,24 @@ a{ /*config de links*/
 }
 
 .texto h1{
+    font-family: 'Roboto';
     color:white;
     font-size: 45px;
 
 }
 .texto p{
+    font-family: 'Roboto',sans-serif;
     color: white;
     font-size: 20px;
 }
 
 .texto .botao-inicio{ /*Tentar configurar o botão deste inicio*/
-    background-color: blue;
-    color: white;
+    background-color: #CCEFFC;
+    color: #008CCF;
     font-size: 25px;
     border-radius: 20px; /*Arredonda as bordas do botão*/
+    width: 20%;
+    border:2px solid #00AEEF;
 }
 
 
@@ -128,12 +135,15 @@ a{ /*config de links*/
 .card-content .botao{
     display: inline-block;
     padding:8px 16px ;
-    background-color: blue;
+    background-color: #CCEFFC;
     text-decoration: none;
     border-radius: 20px;
     margin-top: 16px;
-    color: #fff;
+    color: #008CCF;
     font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    width: 20%;
+    border:2px solid #00AEEF;
 }
 
 /* Config TwoFans */
@@ -294,3 +304,92 @@ footer{
 }
 
 /*  Config da Página TwoFans*/
+
+.page-twofans{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    align-items: center;
+}
+
+.texto-TwoFans h2{
+    font-size: 60px;
+    font-family: 'Boska',serif;
+}
+
+.texto-TwoFans button{
+    display: inline-block;
+    padding:8px 16px ;
+    background-color: #CCEFFC;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 16px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    width: 20%;
+    border:2px solid #00AEEF;
+}
+
+
+
+
+
+
+/*Config pagina threefans*/
+
+.page-threefans{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    align-items: center;
+}
+
+.texto-ThreeFans h2{
+    font-size: 60px;
+    font-family: 'Boska',serif;
+}
+
+.texto-ThreeFans button{
+    display: inline-block;
+    padding:8px 16px ;
+    background-color: #CCEFFC;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 16px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    width: 20%;
+    border:2px solid #00AEEF;
+}
+
+
+
+/*Config pagina fourfans*/
+
+.page-fourfans{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    align-items: center;
+}
+
+.texto-FourFans h2{
+    font-size: 60px;
+    font-family: 'Boska',serif;
+}
+
+.texto-FourFans button{
+    display: inline-block;
+    padding:8px 16px ;
+    background-color: #CCEFFC;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 16px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Roboto',sans-serif;
+    width: 20%;
+    border:2px solid #00AEEF;
+}
