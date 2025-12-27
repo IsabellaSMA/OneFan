@@ -142,7 +142,7 @@ a{ /*config de links*/
     color: #008CCF;
     font-size: 20px;
     font-family: 'Roboto',sans-serif;
-    width: 20%;
+    width: 40%;
     border:2px solid #00AEEF;
 }
 
@@ -215,14 +215,14 @@ a{ /*config de links*/
  /*Config para a categoria agradecimento*/
 .agradecimento{
     margin: 0;
-    padding: 90px;
+    padding: 170px;
     display: flex;
     justify-content: space-between;
 }
 
 .agradecimento img{
     loat:rigth;
-    height: 250px;
+    height: 270px;
 }
 
 .agradecimento texto{
@@ -246,7 +246,7 @@ a{ /*config de links*/
 .contato{
     background-color:#CCEFFC;
     margin:0px;
-    padding: 90px;
+    padding: 200px;
     display:flex;
     justify-content: space-between;
 }
@@ -271,15 +271,18 @@ a{ /*config de links*/
 
 .fim{
 
-background-color: #008CCF;
+    padding: 160px;
 }
 
 .caixa{
+    position: relative;
+    top: -70px; /*Trouxe os cards um pouco pra cima*/
+
     align-items: center;
-    margin: 100px auto;
+    margin: 70px auto;
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 0px;
     width: 20%;
 }
 
@@ -313,6 +316,7 @@ footer{
 }
 
 .texto-TwoFans h2{
+    text-align: center;
     font-size: 60px;
     font-family: 'Boska',serif;
 }
@@ -324,10 +328,10 @@ footer{
     text-decoration: none;
     border-radius: 20px;
     margin-top: 16px;
-    color: black;
+    color: #008CCF;
     font-size: 20px;
     font-family: 'Roboto',sans-serif;
-    width: 20%;
+    width: 50%;
     border:2px solid #00AEEF;
 }
 
@@ -346,6 +350,7 @@ footer{
 }
 
 .texto-ThreeFans h2{
+    text-align: center;
     font-size: 60px;
     font-family: 'Boska',serif;
 }
@@ -357,10 +362,10 @@ footer{
     text-decoration: none;
     border-radius: 20px;
     margin-top: 16px;
-    color: black;
+    color: #008CCF;
     font-size: 20px;
     font-family: 'Roboto',sans-serif;
-    width: 20%;
+    width: 45%;
     border:2px solid #00AEEF;
 }
 
@@ -376,6 +381,7 @@ footer{
 }
 
 .texto-FourFans h2{
+    text-align: center;
     font-size: 60px;
     font-family: 'Boska',serif;
 }
@@ -387,9 +393,9 @@ footer{
     text-decoration: none;
     border-radius: 20px;
     margin-top: 16px;
-    color: black;
+    color: #008CCF;
     font-size: 20px;
     font-family: 'Roboto',sans-serif;
-    width: 20%;
+    width: 45%;
     border:2px solid #00AEEF;
 }
