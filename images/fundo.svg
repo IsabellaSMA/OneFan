@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.5.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 9000 4000" style="enable-background:new 0 0 9000 4000;" xml:space="preserve">
+<rect style="fill-rule:evenodd;clip-rule:evenodd;fill:#FAFAFA;" width="9000" height="4000"/>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M5654.825,3472.521C2734.323,2488.203,845.906,3276.735,290.583,4000H9000V0h-632.162
+			C8367.838,0,9450.229,4751.714,5654.825,3472.521"/>
+	</defs>
+	<clipPath id="SVGID_00000047776080082118827120000005019244873575524274_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	
+		<linearGradient id="SVGID_00000040568924064854386330000011829921646983046843_" gradientUnits="userSpaceOnUse" x1="294.2155" y1="4604.2065" x2="9041.6758" y2="344.6808">
+		<stop  offset="0" style="stop-color:#003780"/>
+		<stop  offset="1" style="stop-color:#29C5FF"/>
+	</linearGradient>
+	
+		<rect x="290.583" style="clip-path:url(#SVGID_00000047776080082118827120000005019244873575524274_);fill:url(#SVGID_00000040568924064854386330000011829921646983046843_);" width="9159.646" height="4751.714"/>
+</g>
+</svg>
